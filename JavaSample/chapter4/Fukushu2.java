@@ -41,6 +41,41 @@ public class Fukushu2 {
     System.out.println(cc);
     System.out.println(dd);
 
+    float aaa = 10f/3;
+    double bbb = 10/3;
+    System.out.println(aaa);
+    System.out.println(bbb);
+
+    int aaaa = 123;
+    double bbbb = aaaa;
+    System.out.println(aaaa);
+    System.out.println(bbbb); 
+    int aaaaa = 123456789;
+    float bbbbb = aaaaa;
+    double ccc = aaaaa;
+    System.out.println(aaaaa);
+    System.out.println(bbbbb);
+    System.out.println(ccc);
+
+    double ab = 4.56;
+    int bbbbbb = (int)ab;
+    System.out.println(ab);
+    System.out.println(bbbbbb);
+
+    String s = "Good Morning";
+    System.out.println(s);
+    System.out.println(s.length());
+    System.out.println(s.toLowerCase());
+    System.out.println(s.toUpperCase());
+    System.out.println(s.replace("Morning","Night"));
+    System.out.println(Integer.MIN_VALUE);
+    System.out.println(Integer.MAX_VALUE);
+
+    
+
+    
+
+
   }
   
 }
