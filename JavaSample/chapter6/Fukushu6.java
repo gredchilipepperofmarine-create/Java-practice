@@ -1,9 +1,8 @@
 public class Fukushu6 {
   public static void main (String[] args) {
-    int i=1;
-    while(i<=1000){
-      System.out.print(i+" ");
-      i*=2;
-    }
+    do {
+      System.out.println("Win!");
+    } while(Math.random()>0.5);
+    System.out.print("Lose");
   }
 }
