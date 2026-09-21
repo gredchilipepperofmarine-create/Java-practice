@@ -1,16 +1,14 @@
 public class Fukushu6 {
   public static void main (String[] args) {
-    for(;;){
-    int a = (int)(Math.random()*6+1), b = (int)(Math.random()*6+1);
-    if(a > b){
-      continue;
+    outer:
+    for (int n=2; n<100; n++){
+      for (int i=2; i<n; i++){
+        if(n%i == 0){
+          continue outer;
+        }
+      }
+      System.out.print(n+" ");
     }
-  System.out.print(a+" "+b);
-  if(a==b){
-    break;
-  }
-
-
-    }
+    System.out.println();
   }
 }
