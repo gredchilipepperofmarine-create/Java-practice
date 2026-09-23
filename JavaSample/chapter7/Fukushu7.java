@@ -1,14 +1,12 @@
 public class Fukushu7 {
   public static void main (String[] args) {
-    int total = 0;
-    if(args.length == 0){
-      System.out.println("0dayo");
-    } else {
-    for(String a:args){
-      total += Integer.parseInt(a);
+    int[][] matrix = {{11,12,13},{21,22,23}};
+    for (int[] row: matrix){
+      for(int col: row){
+        System.out.print(col+" ");
+      }
+      System.out.println();
     }
-    System.out.println(total);
-  }
   }
   
 }
