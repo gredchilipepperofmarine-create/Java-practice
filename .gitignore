@@ -1,1 +1,4 @@
 *.class
+
+# サンプルフォルダを無視する
+JavaSample/

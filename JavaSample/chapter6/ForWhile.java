@@ -1,9 +1,7 @@
 public class ForWhile {
-  public static void main (String[] args) {
-    int t = 1;
-    while(t <= 50){
-      System.out.println(t);
-      t*=2;
-    }
-  }
+	public static void main(String[] args) {
+		for (int x=1; x<1000; x*=2) {
+			System.out.println(x);
+		}
+	}
 }

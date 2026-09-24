@@ -1,8 +1,7 @@
 public class Break {
-  public static void main (String[] args) {
-    int x = (int)(Math.random()*6+1), y = (int)(Math.random()*6+1);
-    System.out.println(x);
-    System.out.println(y);
-
-  }
+	public static void main(String[] args) {
+		int a=(int)(Math.random()*6+1);
+		int b=(int)(Math.random()*6+1);
+		System.out.println(a+" "+b);
+	}
 }

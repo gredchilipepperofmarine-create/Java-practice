@@ -1,7 +1,6 @@
 public class Prec {
-  public static void main (String[] args){
-    System.out.println(2+3*4);
-    System.out.println((2+3)*4);
-
-  }
+	public static void main(String[] args) {
+		System.out.println(2+3*4);
+		System.out.println((2+3)*4);
+	}
 }
