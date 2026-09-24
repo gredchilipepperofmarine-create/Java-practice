@@ -3,7 +3,6 @@ public class Kennel {
     // インスタンスを生成
     Dog black = new Dog();
     // フィールドを設定
-    black.name = "Kuro";
     black.age = 2;
 
     System.out.println(black.name+"("+black.age+")");
@@ -12,7 +11,6 @@ public class Kennel {
     Dog white = new Dog();
     // フィールドを設定
     white.name = "Shiro";
-    white.age = 3;
 
     System.out.println(white.name+"("+white.age+")");
   }
