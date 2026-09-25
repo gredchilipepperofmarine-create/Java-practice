@@ -19,5 +19,9 @@ public class Dog {
   void eat (String food) {
     System.out.println(profile() + " eats " + food);
   }
+
+  void eat () {
+    System.out.println(profile() + "drinks water.");
+  }
   
 }
