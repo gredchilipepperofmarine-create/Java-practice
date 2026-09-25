@@ -1,5 +1,3 @@
-package JavaStudy.chapter8.step04;
-
 public class Dog {
   // フィールドの宣言
   String name;
