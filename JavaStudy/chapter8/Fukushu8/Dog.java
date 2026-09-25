@@ -14,6 +14,14 @@ public class Dog {
     count++;
   }
 
+  public Dog(int age){
+    this("A dog", age);
+  }
+
+  public Dog(){
+    this("A dog", 0);
+  }
+
   // クラスメソッド
   public static void report() {
     System.out.println(count + "instances were created.");
