@@ -22,5 +22,27 @@ public class Dog {
     System.out.println(profile() + " drinks water.");
   }
 
+  // nameフィールドのためのgetter
+  public String getName () {
+    return this.name;
+  }
+
+  // ageフィールドのためのgetter
+  public int getAge () {
+    return this.age;
+  }
+
+  // nameフィールドのためのsetter
+  public void setName (String name){
+    this.name = name;
+  }
+
+  // ageフィールドのためのsetter
+  public void setAge (int age){
+    if(age>=0) {
+      this.age = age;
+    }
+  }
+
   
 }
