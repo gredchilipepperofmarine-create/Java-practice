@@ -4,10 +4,19 @@ public class Dog {
   private String name;
   private int age;
 
+  // クラス変数(クラスのフィールド)の宣言
+  private static int count;
+
   // コンストラクタの宣言
   public Dog (String name, int age){
     this.name = name;
     this.age = age;
+    count++;
+  }
+
+  // クラスメソッド
+  public static void report() {
+    System.out.println(count + "instances were created.");
   }
 
   // nameのゲッター

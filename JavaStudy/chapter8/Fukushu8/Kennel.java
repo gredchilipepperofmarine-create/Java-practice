@@ -8,6 +8,8 @@ public class Kennel {
     Dog white = new Dog("Shiro", 3);
     white.setName(white.getName().toUpperCase());
     System.out.println(white.profile());
+
+    Dog.report();
   }
   
 }
