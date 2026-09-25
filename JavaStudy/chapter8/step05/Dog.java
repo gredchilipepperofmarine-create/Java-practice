@@ -10,7 +10,7 @@ public class Dog {
   }
 
   String profile() {
-    return this.name+"("+this.age+"eats"+")";
+    return this.name + "(" + this.age + ")";
   }
 
   void eat(String food) {

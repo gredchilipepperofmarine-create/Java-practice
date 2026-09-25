@@ -1,8 +1,9 @@
 public class Kennel {
   public static void main (String[] args) {
-    // Dogクラスのインスタンスを生成して変数blackを初期化
+    // インスタンスを生成し、変数blackで初期化と同時に引数を与える
     Dog black = new Dog("Kuro", 2);
     black.eat("fish");
+    black.eat();
   }
   
 }
