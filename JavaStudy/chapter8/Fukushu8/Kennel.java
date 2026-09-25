@@ -1,13 +1,11 @@
 public class Kennel {
   public static void main (String[] args) {
 
-    Dog black = new Dog();
-    black.age = 2;
-    System.out.println(black.name + "(" + black.age + ")");
+    Dog black = new Dog("Kuro", 2);
+    black.eat("fish");
 
-    Dog white = new Dog();
-    white.name = "Shiro";
-    System.out.println(white.name + "(" + white.age + ")");
+    Dog white = new Dog("Shiro", 3);
+    white.eat("meat");
   }
   
 }
