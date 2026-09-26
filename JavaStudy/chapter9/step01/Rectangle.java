@@ -13,7 +13,8 @@ public class Rectangle {
 
   // drawメソッド
   public void draw() {
-    System.out.println("rectangle (" + this.x, this.y + ") size:" width );
+    System.out.printf(
+      "rectangle (%d, %d) size:%dx%d\n", this.x, this.y, this.width, this.height);
   }
   
 }
