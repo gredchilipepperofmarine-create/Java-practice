@@ -9,7 +9,7 @@ public class Circle extends Figure {
   }
 
   // メソッドを宣言
-  @Override public void draw() {
+  public void draw() {
     header("circle");
     System.out.printf("radius:%d\n", this.radius);
   }

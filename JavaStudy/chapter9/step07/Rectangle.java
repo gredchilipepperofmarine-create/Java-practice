@@ -12,7 +12,7 @@ public class Rectangle extends Figure {
   }
 
   // drawメソッド
-  @Override public void draw() {
+  public void draw() {
     header("rectangle");
     System.out.printf(
       "size:%dx%d\n", this.width, this.height);
