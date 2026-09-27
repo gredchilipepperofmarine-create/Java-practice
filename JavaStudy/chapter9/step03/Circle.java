@@ -1,11 +1,10 @@
-public class Circle {
+public class Circle extends Figure {
   // フィールドを宣言
-  private int x, y, radius;
+  private int radius;
 
   // コンストラクタを宣言
   public Circle(int x, int y, int radius) {
-    this.x = x;
-    this.y = y;
+    super(x, y);
     this.radius= radius;
   }
 
