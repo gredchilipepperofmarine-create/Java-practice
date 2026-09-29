@@ -6,7 +6,14 @@ public class Editor {
     };
 
     for(Object o: object) {
-      System.out.println(o);
+
+      // Figureクラスのインスタンスに対しては、
+      // drawメソッドを呼び出す
+      if(o instanceof Figure f) {
+        f.draw();
+      } else {
+          System.out.println(o);
+      }
     }
 
 
