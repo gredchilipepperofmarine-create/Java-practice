@@ -4,5 +4,8 @@ public class Canvas {
     Rectangle r = new Rectangle(100, 200, 11, 22);
     r.draw();
 
+    Circle c = new Circle(300, 400, 34);
+    c.draw();
+
   }
 }

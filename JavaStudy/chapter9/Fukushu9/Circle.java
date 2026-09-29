@@ -8,7 +8,7 @@ public class Circle {
   }
 
   public void draw() {
-    System.out.printf("cirsle (%d, %y) radius: %d", x, y, radius);
+    System.out.printf("cirsle (%d, %d) radius: %d", x, y, radius);
   }
     
 }
