@@ -1,11 +1,15 @@
 public class Canvas {
   public static void main (String[] args) {
 
-    Rectangle r = new Rectangle(100, 200, 11, 22);
-    r.draw();
+    Figure[] figure = {
+      new Rectangle(100, 200, 11, 22),
+      new Circle(300, 400, 34)
+    };
 
-    Circle c = new Circle(300, 400, 34);
-    c.draw();
+    for(Figure f: figure) {
+      f.draw();
+    }
+
 
   }
 }

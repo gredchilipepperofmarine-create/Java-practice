@@ -9,5 +9,7 @@ public class Figure {
   protected void header(String name) {
     System.out.printf("%s (%d, %d)", name, x, y);
   }
+
+  public void draw() {}
   
 }
