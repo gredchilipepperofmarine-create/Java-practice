@@ -11,7 +11,7 @@ public class Rectangle extends Figure {
   }
 
   // drawメソッドを宣言
-  public void draw() {
+  @Override public void draw() {
     header("Rectangle");
     System.out.printf(" size:%d x %d\n", width, height);
   }

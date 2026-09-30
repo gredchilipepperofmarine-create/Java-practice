@@ -6,7 +6,7 @@ public class Circle extends Figure{
     this.radius = radius;
   }
 
-  public void draw() {
+  @Override public void draw() {
     header("Circle");
     System.out.printf(" radius: %d", radius);
   }

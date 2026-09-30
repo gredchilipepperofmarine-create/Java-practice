@@ -1,4 +1,4 @@
-public class Figure {
+public abstract class Figure {
   protected int x, y;
 
   public Figure(int x, int  y){
@@ -10,6 +10,6 @@ public class Figure {
     System.out.printf("%s (%d, %d)", name, x, y);
   }
 
-  public void draw() {}
+  public abstract void draw();
   
 }
