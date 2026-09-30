@@ -3,7 +3,8 @@ public class Canvas {
 
     Figure[] figure = {
       new Rectangle(100, 200, 11, 22),
-      new Circle(300, 400, 34)
+      new Circle(300, 400, 34),
+      new FlowerCircle(500, 600, 56)
     };
 
     for(Figure f: figure) {
