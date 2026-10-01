@@ -8,7 +8,7 @@ public class Circle extends Figure{
 
   @Override public void draw() {
     header("Circle");
-    System.out.printf(" radius: %d", radius);
+    System.out.println(" radius: " + radius);
   }
     
 }

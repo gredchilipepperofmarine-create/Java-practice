@@ -5,7 +5,7 @@ public class FlowerCircle extends Circle{
   }
 
   @Override public void draw() {
-    System.out.println("flower");
+    System.out.print("flower");
     super.draw();
   }
 
