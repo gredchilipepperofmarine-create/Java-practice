@@ -1,4 +1,4 @@
-public class Code {
+public class Code implements Printable{
 
   // フィールドを宣言
   private String code;
@@ -9,7 +9,7 @@ public class Code {
   }
 
   // printメソッドを宣言
-  public  void print() {
+  @Override public  void print() {
     System.out.println(code);
   }
   

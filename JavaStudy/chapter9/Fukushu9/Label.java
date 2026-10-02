@@ -1,4 +1,4 @@
-public class Label extends Figure {
+public class Label extends Figure implements Printable {
 
   // フィールドを宣言
   private String text;
@@ -15,7 +15,7 @@ public class Label extends Figure {
     System.out.println("text:"+text);
   }
 
-  public void print() {
+  @Override public void print() {
     System.out.println(text);
   }
   
