@@ -18,5 +18,9 @@ public class Label extends Figure implements Printable {
   @Override public void print() {
     System.out.println(text);
   }
+
+  @Override public String toString() {
+    return "Label: " + text;
+  }
   
 }

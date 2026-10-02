@@ -12,5 +12,9 @@ public class Code implements Printable{
   @Override public  void print() {
     System.out.println(code);
   }
+
+  @Override public String toString() {
+    return "Code: " + code;
+  }
   
 }
