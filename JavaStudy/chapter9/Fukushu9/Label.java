@@ -14,5 +14,9 @@ public class Label extends Figure {
     header("label");
     System.out.println("text:"+text);
   }
+
+  public void print() {
+    System.out.println(text);
+  }
   
 }
