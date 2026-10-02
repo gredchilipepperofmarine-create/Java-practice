@@ -6,18 +6,13 @@ public class Editor {
       new Label(700, 800, "Hello"),
       new Code("public void main(String[] args)")
     };
-
     for(Object o:object) {
-      if(o instanceof Figure f) {
-        f.draw();
-
-      } else {
-        System.out.println(o);
+      switch(o) {
+        case Figure f -> f.draw();
+        default -> System.out.println(o);
       }
     }
-
-
-   
+  
 
   }
   
