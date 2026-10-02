@@ -1,5 +1,6 @@
 public interface Printable {
 
+
   // メソッドを宣言
   public void print();
 
