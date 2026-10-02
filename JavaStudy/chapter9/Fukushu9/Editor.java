@@ -8,7 +8,12 @@ public class Editor {
     };
 
     for(Object o:object) {
-      System.out.println(o);
+      if(o instanceof Figure f) {
+        f.draw();
+
+      } else {
+        System.out.println(o);
+      }
     }
 
 
