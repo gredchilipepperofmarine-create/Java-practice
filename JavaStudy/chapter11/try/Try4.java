@@ -1,4 +1,4 @@
-public class Try {
+public class Try4 {
   public static void main (String[] args) {
     // コマンドライン引数：mainのString配列であるargsに対して、ターミナルでコンパイルして実行する際に
     // java ファイル名　引数　と入力すると、コマンドライン引数として与えられる
@@ -13,6 +13,8 @@ public class Try {
       System.out.println("usage: java Try <integer> <integer>");
     } catch (NumberFormatException e) {
       System.out.println("error:specify inegers");
+    } catch (ArithmeticException e) {
+      System.out.println("error: division by Zero");
     }
 
   }
