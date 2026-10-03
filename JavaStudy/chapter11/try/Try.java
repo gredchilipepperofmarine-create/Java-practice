@@ -4,10 +4,15 @@ public class Try {
     // java ファイル名　引数　と入力すると、コマンドライン引数として与えられる
 
     // 整数を変数aとbで宣言。Integer.parseInt()を使って、コマンドライン引数を変換する
-    int a = Integer.parseInt(args[0]);
-    int b = Integer.parseInt(args[1]);
 
-    System.out.println(a/b);
+    try {
+      int a = Integer.parseInt(args[0]);
+      int b = Integer.parseInt(args[1]);
+      System.out.println(a/b);
+    }
+    catch (ArrayIndexOutOfBoundsException e) {
+      System.out.println("usage: java Try <integer> <integer>");
+    }
 
   }
 }
