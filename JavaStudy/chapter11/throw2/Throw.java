@@ -1,6 +1,6 @@
 public class Throw {
   public static void main (String[] args) {
-    User user = new User("guest", "abc123");
+    User user = new User("guest", "");
     user.print();
   }
   
